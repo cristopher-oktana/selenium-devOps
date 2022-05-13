@@ -8,7 +8,7 @@ public class BaseTest {
     private WebDriver driver;
     private String username="//input[@id='username']";
     private String password="//input[@id='password']";
-    private String BUTTON_LOGIN="//input[@id='Login']";
+    private String BUTTON_LOGIN="//input[@id='Login']";//test
 
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
