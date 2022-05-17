@@ -1,15 +1,14 @@
-name: deploy
+name: Say hello
 
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs: 
-  deploy:
-    name: deploy to cluster
+  hello_world:
     runs-on: ubuntu-18.04
     steps:
-      - name: build and push to docker
+      - name: Echo the message
         run: |
           echo "Hola Mundo"
